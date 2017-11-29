@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PlayerStatistics.jnlp">
+  <information>
+    <title>PlayerStatistics</title>
+    <vendor>markery.ch</vendor>
+    <description>PlayerStatistics</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PlayerStatistics.jar" size="21297" download="eager" />
+    <jar href="libs/json-simple.jar" size="17628" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="ch.makery.address.MainApp"  name="PlayerStatistics" />
+  <update check="background"/>
+</jnlp>
